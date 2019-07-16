@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves_array)
   dwarves_array.sort.each_with_index{ |dwarf, index|
-    puts dwarf
+    puts "#{index}. #{dwarf}"
   }
 end
 
